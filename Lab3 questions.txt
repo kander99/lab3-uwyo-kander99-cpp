@@ -1,0 +1,35 @@
+answers to questions in lab 3
+
+
+How can you detect an overflow in this process(2)? 
+you can detect if there is an overflow in addition if you look at the case of the number
+that is outputted if it is a diffrent one that was inputted you can tell if there is an \
+over flow
+
+
+How can you detect an overflow in this process(4)?
+there are two ways you can dettect this
+first: if you have a short that is then assened to long then there is data missing and it
+wont be correct
+second: if you have a unnassined int to a assigned one there that returns a 1
+
+What value of n causes an overflow?
+answer: 256
+
+
+What is the expected value of this function if the computations are exact?  
+answer: 1
+
+
+Here is a puzzle.  Execute the following piece of code, and explain where and why the numeric error occurs:
+
+	for (float i = 3.4; i < 4.4; i += 0.2)
+	{   
+		cout << "i = " << i << endl;
+	}
+
+answer:Float store less accurately and we are converting a float to a double
+
+
+Now change the variable i in part 7 to type double.  Explain the effect.
+answer:we are now using a double
